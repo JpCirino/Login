@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.separador{
+    padding: 4px;
+}
+header{
+    background-color: black;
+    width: 100vw;
+    height: 14vw;
+    position: absolute;
+}
+main form{
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+    background-color: rgb(129, 129, 129);
+    width: 46.9375rem;
+    padding: 0 4rem 4rem 4rem;
+    margin-left: 15.3rem;
+    position: relative;
+    top: 11rem;
+    left: 8rem;
+    border-radius: 0.3rem;
+}
+main h1{
+    padding-top: 10px;
+    color:white;
+    margin: auto;
+}
+input{
+    width: 100%;
+    padding: 5px;
+    border-radius: 5px;
+    border:none;
+}
